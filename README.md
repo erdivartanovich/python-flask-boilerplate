@@ -42,7 +42,7 @@ Composed by: @erdivartanovich.
 - Install Python3 Package Management (PIP3) 
     ```sh
         $ sudo apt-get install -y python3-pip
-    ```sh
+    ```
 
     We can confirm if pip3 is succesfully installed by this command
 
