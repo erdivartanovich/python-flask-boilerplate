@@ -11,17 +11,27 @@ Composed by: @erdivartanovich.
 
     Output
     ```sh
-    $ Python 3.6.6
+    $ Python 3.6.3
     ```
 
 - Install Python3 if not available yet
-    Ubuntu 16.04 or newer version are ship with both Python 3 and Python 2 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with apt-get:
+
+    If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
 
     ```sh
         $ sudo apt-get update
-        $ sudo apt-get -y upgrade
+        $ sudo apt-get install python3.6
     ```
 
+    If you’re using another version of Ubuntu (e.g. the latest 16.04 LTS release), you can try using the deadsnakes PPA to install Python 3.6:
+
+    ```sh
+        $ sudo apt-get install software-properties-common
+        $ sudo add-apt-repository ppa:deadsnakes/ppa
+        $ sudo apt-get update
+        $ sudo apt-get install python3.6
+    ```
+    
     These commands should install the latest python 3 available in ubuntu repository.
     There are a few more packages and development tools to install to ensure that we have a robust set-up for our programming environment:
 
