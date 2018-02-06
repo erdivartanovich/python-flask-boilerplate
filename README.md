@@ -63,3 +63,44 @@ Composed by: @erdivartanovich.
     ```
 
 Now we are Set to go , for Python 3 app development.
+
+## Configure Flask Application
+
+- Create Project Folder (you can named it anything)
+
+    ```sh
+        $ mkdir flask-app
+    ```
+
+- First step we need to create a virtual-environment inside our project folder
+
+    ```sh
+        $ cd flask-app
+        $ python3 -m venv env
+    ```
+
+    Now everytime we want to work with our flask app, just cd to the project folder and activate the virtual-environment:
+
+    ```sh
+        $ cd flask-app
+        $ . env/bin/activate
+    ```
+
+    The shell cursor of your terminal should now display a sign that virtual env is activated.
+
+    ```sh
+        (env) username $
+    ```
+
+    To deactivate the virtual env just fire this command:
+
+    ```sh
+        $ deactivate
+    ```
+
+- Install Flask Package. Remember to cd to your project folder and activate the virtual-environment
+
+    ```sh
+        $ pip install flask
+    ```
+
